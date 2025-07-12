@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SPS Quiz App</string>
+    <string name="welcome_message">Welcome to the Quiz App!</string>
+    <string name="username_label">Username/e-mail :</string>
+    <string name="login_button_text">Login</string>
+
+    <string name="user_label">Hi, {USER}</string>
+    <string name="question_category">{CATEGORY}</string>
+    <string name="question_display">{QUEST}</string>
+    <string name="question_option1">{OPTION1}</string>
+    <string name="question_option2">{OPTION2}</string>
+    <string name="question_option3">{OPTION3}</string>
+    <string name="question_option4">{OPTION4}</string>
+    <string name="prev_quest">Previous</string>
+    <string name="next_quest">Next</string>
+    <string name="submit_ans">Submit All</string>
+
+    <string name="quiz_result">Great job, {USER}! You scored {SCORE} out of 100 in the quiz. Keep up the good work!</string>
+    <string name="quiz_Score">Score : {DETAILS}</string>
+    <string name="high_Score">The highest scorers in the Quiz.</string>
+    <string name="rank">Rank</string>
+    <string name="player">Name</string>
+    <string name="score">Score</string>
+    <string name="close_quiz">Close App</string>
+    <string name="retry_quiz">Retry Quiz</string>
+
+    <string name="start_quiz">Start Quiz</string>
+    <string name="results">Results</string>
+    <string name="question_format">Question %1$d: %2$s</string>
+    <string name="correct_answer">Correct Answer: %1$s</string>
+    <string name="incorrect_answer">Incorrect Answer: %1$s</string>
+</resources>

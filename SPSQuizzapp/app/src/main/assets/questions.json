@@ -1,0 +1,70 @@
+{
+  "title": "Programming Knowledge Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Kotlin primarily used for?",
+      "options": [
+        "Web development only",
+        "Android app development",
+        "Database management",
+        "Game development only"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Kotlin is a modern programming language that is officially supported for Android app development by Google since 2017.",
+      "reference": "https://developer.android.com/kotlin"
+    },
+    {
+      "id": 2,
+      "question": "What design pattern is used when you need to separate data retrieval from its representation?",
+      "options": [
+        "Observer pattern",
+        "Singleton pattern",
+        "MVC (Model-View-Controller) pattern",
+        "Factory pattern"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The MVC pattern separates the application into three components: Model (data), View (user interface), and Controller (input logic).",
+      "reference": "https://developer.android.com/topic/architecture"
+    },
+    {
+      "id": 3,
+      "question": "Which Jetpack component is used to store and manage UI-related data in a lifecycle-conscious way?",
+      "options": [
+        "LiveData",
+        "Room",
+        "ViewModel",
+        "WorkManager"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "ViewModel is designed to store and manage UI-related data in a lifecycle-conscious way, allowing data to survive configuration changes such as screen rotations.",
+      "reference": "https://developer.android.com/topic/libraries/architecture/viewmodel"
+    },
+    {
+      "id": 4,
+      "question": "What does the 'suspend' keyword indicate in Kotlin?",
+      "options": [
+        "The function can be paused and resumed later",
+        "The function will stop the application",
+        "The function is deprecated",
+        "The function can only be called from the main thread"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "The 'suspend' keyword indicates that a function can be paused and resumed later. This is a key part of Kotlin's coroutines for handling asynchronous operations.",
+      "reference": "https://kotlinlang.org/docs/coroutines-overview.html"
+    },
+    {
+      "id": 5,
+      "question": "What is Material Design?",
+      "options": [
+        "A programming language",
+        "A database management system",
+        "A design system created by Google",
+        "A testing framework for Android"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Material Design is a design system created by Google that provides guidelines for visual, motion, and interaction design across platforms and devices.",
+      "reference": "https://m3.material.io/"
+    }
+  ]
+}
